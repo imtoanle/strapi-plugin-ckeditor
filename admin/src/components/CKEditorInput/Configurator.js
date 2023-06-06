@@ -234,6 +234,9 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       ],
       shouldNotGroupWhenFull: true
     },
+    mediaEmbed: {
+      previewsInData: true
+    },
     heading: {
       options: [
         { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
